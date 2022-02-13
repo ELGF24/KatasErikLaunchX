@@ -1,0 +1,16 @@
+
+def open_file(file):
+    try:
+        file = open(file, "r")
+        print(file.readlines())
+    except FileNotFoundError:
+        print("El archivo que quiere abrir no se ecuentra")
+        question = input(f"Desea crear el archivo-{file} (si/no): ")
+        if question == 'si':
+            with open(file, 'w') as fl:
+                fl.write("Archivo creado")
+                fl.close()
+            print("El archivo fue creado con exito")
+            
+    finally:
+        print("Gracias")
