@@ -7,6 +7,6 @@
 
 ## About <a name = "about"></a>
 
-Esta es la seccion de programacion con Python con diferentes Katas.
+Esta es la seccion de programacion con Python con diferentes Katas para Launch X.
 
 
